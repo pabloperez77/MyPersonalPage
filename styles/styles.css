@@ -42,28 +42,28 @@ a:hover {
 }
 
 #GeeksHubs {
-    background: url("/images/GeeksHubs.jpg");
+    background: url("/images/GeeksHubspng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #Aficiones {
-    background: url("/images/aficiones.jpg");
+    background: url("/images/aficionespng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #Intereses {
-    background: url("/images/intereses.jpg");
+    background: url("/images/interesespng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #Mis\ Redes{
-    background: url("/images/redes.jpg");
+    background: url("/images/redespng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
