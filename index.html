@@ -1,37 +1,100 @@
-<html>
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="description" content="Web personal de Pablo"/>
-        <meta name="viewport"  content="widht=device-widht,initial_scale=1.0"/>
-        <link rel="stylesheet" href="main.css">
-        <title> Pablo Pérez Novoa</title>
-    </head>
+<!DOCTYPE html>
 
-    <body>
-        <div>
-        <header>
-            <nav>
-            <a href="#"> INICIO </a>
-            </nav>
-        </header>
-        <section>
-            <h1>
-                Introducción sobre mi:
-            </h1>
-            <p>
-                Me llamo <strong> Pablo </strong>, tengo <strong>22</strong> años y entre mis aficiones se encuentra el deporte, viajar y hacer memes.
-            </p>
-        </section>
-        <footer>
-            <div class="container">
-                <h2><a href="https://twitter.com/pabliiko_"> TWITTER </a></h2>
-                <h3><a href="https://www.instagram.com/pabulo_sin_la_u/?hl=es"> INSTAGRAM </a></h3>
-                <h4><a href="https://github.com/pabloperez77"> GITHUB </a></h4>
-                <h5><a href="https://www.linkedin.com/in/pablo-perez-novoa-917b0316b/"> LINKEDIN </a></h5>
-                <h6><a href="https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=30147165200524163"> INFOJOBS </a></h6>
-            </div>
-        </footer>
+<html lang="es" xmlns="http://www.w3.org/1999/html">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Pablo Pérez Novoa</title>
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+</head>
+
+<body>
+
+<article>
+    <button class="pestaña" onclick="abrePestaña('Sobre mi', this, 'transparent')" id="Por_Defecto"><h3>Sobre mi</h3></button>
+    <button class="pestaña" onclick="abrePestaña('GeeksHubs',this, 'transparent')"><h3>GeeksHubs</h3></button>
+    <button class="pestaña" onclick="abrePestaña('Aficiones',this, 'transparent')"><h3>Aficiones</h3></button>
+    <button class="pestaña" onclick="abrePestaña('Intereses',this, 'transparent')"><h3>Intereses</h3></button>
+    <button class="pestaña" onclick="abrePestaña('Mis Redes',this, 'transparent')"><h3>Mis Redes</h3></button>
+
+    <div id="Sobre mi" class="contenido_pestaña" style="display: none;">
+        <div class="animated zoomIn"><p class="parrafo1">
+            Mi nombre es Pablo y tengo 22 años. Soy de la Región de Murcia,<br> concretamente de San Pedro del Pinatar. Siempre me ha gustado
+            la informática,<br> por eso comencé mis estudios del Grado de Ingeniería Informática en la Universidad de Murcia en 2015.<br>
+            Me tomé un descanso con la carrera y entonces descubrí la formación de GeeksHubs,<br> donde he aprendido muchas cosas sobre
+            la programación de aplicaciones web <br> y he desarrollado un interés especial por el frontend. <br> Soy un chico con muchas ganas de
+            seguir aprendiendo y descubrir nuevas tecnologías.
+        </p></div>
+    </div>
+
+    <div id="GeeksHubs" class="contenido_pestaña">
+        <div class="animated fadeInDown"><p class="parrafo2">
+            He realizado una formación intensiva de ocho horas diarias<br> durante tres meses con GeeksHubs.<br> He aprendido sobre el desarrollo de aplicaciones
+            web,<br> sobre metodologías de trabajo de las empresas <br>y sobre cómo mejorar mi marca personal <br>además de muchas más cosas.
+        </p></div>
+    </div>
+
+    <div id="Aficiones" class="contenido_pestaña">
+        <p class="parrafo3">
+            Una de mis grandes aficiones es el deporte, a lo largo de mi vida he practicado fútbol, baloncesto y rugby.<br> Soy fan de
+            Los Angeles Lakers y uno de mis sueños es ver un partido en su estadio, el Staples Center.<br><br> Comencé a practicar rugby gracias
+            a un amigo que me llevo a ver un partido de su equipo, el club de Rugby de Las Torres. <br>Me terminaron de convencer para unirme a ellos
+            con el asado argentino que prepararon después del partido.<br><br>
+            También me encanta leer, mis géneros favoritos son la novela negra, la fantasía y las aventuras. Uno de mis libros favoritos es "El amor en
+            los tiempos del cólera", de Gabriel García Márquez.<br> Otra de mis aficiones son
+            los videojuegos, entre los cuales no tengo un género predilecto.<br><br>
+            Otra de mis grandes pasiones es viajar, la ciudad de Europa que más me ha gustado es Londres pero todavía me quedan muchos
+            sitios por visitar.
+        </p>
+        <div class="animated zoomInRight"><img class="lastorres" src="images/lastorresrugby.png"></div>
+
+    </div>
+
+    <div id="Intereses" class="contenido_pestaña">
+        <div class="animated fadeInRight"><p class="parrafo4">
+            Considero que todavía tengo mucho que explorar<br> en el mundo de la informática. <br>Me interesa bastantela seguridad informática
+            <br>y me gustaría algún día trabajar en ello.<br> También me gusta trabajar en mis proyectos personales, <br>ahora mismo estoy aprendiendo a desarrollar<br>
+            aplicaciones para móviles con Android Studio.
+        </p></div>
+    </div>
+
+    <div id="Mis Redes" class="contenido_pestaña">
+        <div id="redes_sociales">
+            <div class="animated bounceInLeft"><a href="https://twitter.com/pabliiko_"><img class="icono_redes" src="images/tt-ico.png"></a></div>
+            <div class="animated bounceInUp"><a href="https://www.facebook.com/profile.php?id=100014710361305"><img class="icono_redes" src="images/fb-ico.png"></a></div>
+            <div class="animated bounceInDown"><a href="https://www.instagram.com/pabulo_sin_la_u/?hl=es"><img class="icono_redes" src="images/instagram.png"></a></div>
+            <div class="animated bounceInRight"><a href="https://www.linkedin.com/in/pablo-perez-novoa-917b0316b/"><img class="icono_redes" src="images/linkedin.png"></a></div>
         </div>
-    </body>
+    </div>
+</article>
 
+<footer class="fondo">
+        <ul>
+            <li>&copy: Pablo Pérez Novoa 2019.</li>
+            <li><a href="mailto:pablopereznovoa@gmail.com" title="Email">Email: pablopereznovoa@gmail.com</a></li>
+            <li><a href="tel:+34667702471" title="telefono">Teléfono: +34 667702471</a></li>
+        </ul>
+
+</footer>
+
+</body>
+<script>
+    function abrePestaña(nombreP, e, color) {
+        var i, contenidoPestaña, pestaña;
+        contenidoPestaña = document.getElementsByClassName('contenido_pestaña');
+        for (var i = 0; i < contenidoPestaña.length; i++) {
+            contenidoPestaña[i].style.display = "none";
+        }
+        pestaña = document.getElementsByClassName('pestaña');
+        for (var i = 0; i < pestaña.length; i++) {
+            pestaña[i].style.backgroundColor = "";
+        }
+        document.getElementById(nombreP).style.display = "block";
+        e.style.backgroundColor = color;
+    }
+    document.getElementById("Por_Defecto").click();
+</script>
 </html>
