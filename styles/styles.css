@@ -49,14 +49,14 @@ a:hover {
 }
 
 #Aficiones {
-    background: url('../images/aficionespng.png');
+    background: url('/images/aficionespng.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #Intereses {
-    background: url('../images/interesespng.png');
+    background: url('/images/interesespng.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
