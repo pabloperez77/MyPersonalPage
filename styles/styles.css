@@ -35,35 +35,35 @@ a:hover {
 }
 
 #Sobre\ mi {
-    background: url("/MyPersonalPage/tree/master/images/sobremipng.png");
+    background: url("images/sobremipng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #GeeksHubs {
-    background: url("/MyPersonalPage/tree/master/images/GeeksHubspng.png");
+    background: url("images/GeeksHubspng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #Aficiones {
-    background: url("/MyPersonalPage/tree/master/images/aficionespng.png");
+    background: url("images/aficionespng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #Intereses {
-    background: url("/MyPersonalPage/tree/master/images/interesespng.png");
+    background: url("images/interesespng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #Mis\ Redes{
-    background: url("/MyPersonalPage/tree/master/images/redespng.png");
+    background: url("images/redespng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
