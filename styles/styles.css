@@ -1,6 +1,6 @@
 html, body, article {
     margin: 0;
-    font-family: "Comic Sans MS";
+    font-family: "Alef";
 }
 
 a {
@@ -35,7 +35,7 @@ a:hover {
 }
 
 #Sobre\ mi {
-    background: url("/images/sobremi.jpg");
+    background: url("/images/sobremipng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
