@@ -35,35 +35,35 @@ a:hover {
 }
 
 #Sobre\ mi {
-    background: url("/sobremipng.png");
+    background: url("/images/sobremipng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #GeeksHubs {
-    background: url("/GeeksHubspng.png");
+    background: url("/images/GeeksHubspng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #Aficiones {
-    background: url("/aficionespng.png");
+    background: url("/images/aficionespng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #Intereses {
-    background: url("/interesespng.png");
+    background: url("/images/interesespng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #Mis\ Redes{
-    background: url("/redespng.png");
+    background: url("/images/redespng.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
