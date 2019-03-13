@@ -12,9 +12,9 @@ a:hover {
 }
 
 .pestaña {
-    background-color: floralwhite;
-    color: wheat;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    background-color: white;
+    color: cadetblue;
+
     float: left;
     border: none;
     outline: none;
@@ -35,6 +35,8 @@ a:hover {
 }
 
 #Sobremi {
+    display: flex;
+    justify-content: space-between;
     background: url('../images/sobremipng.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -42,6 +44,8 @@ a:hover {
 }
 
 #GeeksHubs {
+    display: flex;
+    justify-content: space-between;
     background: url('../images/GeeksHubspng.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -49,13 +53,17 @@ a:hover {
 }
 
 #Aficiones {
-    background: url('../images/aficionespng.png');
+    display: flex;
+    justify-content: space-between;
+    background: url('../images/aficionespng2.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #Intereses {
+    display: flex;
+    justify-content: space-between;
     background: url('../images/interesespng.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -63,6 +71,8 @@ a:hover {
 }
 
 #MisRedes{
+    display: flex;
+    justify-content: space-between;
     background: url('../images/redespng.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -111,7 +121,7 @@ a:hover {
 #redes_sociales{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 250px;
 
 }
