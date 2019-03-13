@@ -1,4 +1,4 @@
-html, body, article {
+html, body,article {
     margin: 0;
     font-family: "Alef";
 }
@@ -14,29 +14,26 @@ a:hover {
 .pestaña {
     background-color: white;
     color: cadetblue;
-
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 8px 10px;
     font-size: 20px;
     width: 20%;
 }
+
 
 .pestaña:hover {
     background-color: transparent;
 }
 
 .contenido_pestaña {
-    display: none;
     padding: 100px 20px;
     height: 67vh;
 }
 
 #Sobremi {
-    display: flex;
-    justify-content: space-between;
     background: url('../images/sobremipng.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -44,8 +41,6 @@ a:hover {
 }
 
 #GeeksHubs {
-    display: flex;
-    justify-content: space-between;
     background: url('../images/GeeksHubspng.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -53,8 +48,6 @@ a:hover {
 }
 
 #Aficiones {
-    display: flex;
-    justify-content: space-between;
     background: url('../images/aficionespng2.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -62,17 +55,13 @@ a:hover {
 }
 
 #Intereses {
-    display: flex;
-    justify-content: space-between;
-    background: url('../images/interesespng.png');
+    background: url('../images/intereses3.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #MisRedes{
-    display: flex;
-    justify-content: space-between;
     background: url('../images/redespng.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -89,39 +78,56 @@ a:hover {
 .parrafo1 {
     padding-top: 320px;
     padding-left: 520px;
-    color: tomato;
+    color: black;
     font-size: medium;
 }
 .parrafo2 {
-    padding-top: 270px;
+    padding-top: 240px;
     padding-left: 10px;
     color: white;
     font-size: large;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 .parrafo3 {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-left: 10px;
     color: white;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
     font-size: large;
+}
+.parrafo5 {
+    padding-top: 50px;
+    padding-left: 900px;
+    color: white;
+    font-size: large;
+}
+.parrafo6 {
+    padding-top: 50px;
+    padding-left: 900px;
+    color: white;
+    font-size: x-large;
 }
 .lastorres{
     max-height: 200px;
     max-width: 100px;
-    padding-top: 150px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 100px;
 }
+.bolamagica{
+    max-height: 200px;
+    max-width: 100px;
+    border-radius:200px;
+}
+
 .parrafo4 {
     padding-top: 50px;
     padding-left: 10px;
     color: white;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
     font-size: x-large;
 }
 #redes_sociales{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 250px;
 
 }
@@ -155,12 +161,3 @@ a:hover {
     padding-bottom: 1px;
 }
 
-#infobox3 {
-    margin: auto;
-    position: relative;
-    top: 0px;
-    height: 58px;
-    width: 100%;
-    text-align: center;
-    background-color: red;
-}

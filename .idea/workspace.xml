@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a1890ae-b732-44ec-a900-5a43f7c0741b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/aficionespng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/interesespng.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
@@ -72,7 +72,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="3" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -80,8 +80,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="874" />
-          <entry key="HTML" value="3586" />
+          <entry key="CSS" value="1310" />
+          <entry key="HTML" value="4199" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="67" />
           <entry key="PLAIN_TEXT" value="6" />
@@ -94,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="255">
+              <caret line="63" column="147" selection-start-line="63" selection-start-column="147" selection-end-line="63" selection-end-column="147" />
             </state>
           </provider>
         </entry>
@@ -103,17 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="304">
+              <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -236,12 +227,12 @@
       <workItem from="1552408358134" duration="2987000" />
       <workItem from="1552412558725" duration="4573000" />
       <workItem from="1552424495590" duration="1622000" />
-      <workItem from="1552475634757" duration="2298000" />
+      <workItem from="1552475634757" duration="9540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39750000" />
+    <option name="totallyTimeSpent" value="46992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-7" width="1455" height="1017" extended-state="6" />
@@ -296,15 +287,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="255">
+          <caret line="63" column="147" selection-start-line="63" selection-start-column="147" selection-end-line="63" selection-end-column="147" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="304">
+          <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
         </state>
       </provider>
     </entry>
